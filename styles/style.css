@@ -1,34 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --bg-color: #FFFDF1; 
+    --text-color: #151C0D; 
+    --highlight-color-one: #83944C; 
+    --highlight-color-two: #DFA768; 
+}
+
 body {
-    padding-top: 6rem;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    
+}
+/* Hero Section */
+.hero-section {
+    background: url('http://placehold.co/1200x800');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
-h1 {
-    font-size: 2.5rem;
+.bg-light {
+    background-color: red;
 }
 
-div.row {
-    background: var(--bs-primary-bg-subtle);
-    margin-bottom: 1em;
+.hero-section h1 {
+    font-family: "Texturina", serif;
+    font-weight: 700;
 }
 
-h3 {
-    margin-top: 25vh;
+h2, h3, h4, h5 {
+    font-family: "Texturina", serif;
+    color: #151C0D;
 }
 
-div.row div {
-    padding: 5px;
-    border: 1px solid var(--bs-tertiary-color);
+.hero-section .lead {
+    font-size: 1.5rem;
 }
 
-p {
-    font-size: 1.25rem;
+.btn {
+    background-color: var(--highlight-color-two);
+    color: #151C0D;
+    border: none;
+    padding: 2%;
 }
 
-ul {
-    font-size: 1.25rem;
+.work-card img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5%;
+    filter: sepia(20%);
 }
 
-ul li {
-    margin-bottom: 1rem;
+.work-card {
+    font-family: "Figtree", sans-serif;
+    border-radius: 5%;
+    border: none;
+    background: #83944C;
+    color: #FFFDF1;
 }
 
+h2 {
+    font-weight: 700;
+    color: #333;
+}
