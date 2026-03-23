@@ -15,7 +15,7 @@ body {
 }
 /* Hero Section */
 .hero-section {
-    background: url('http://placehold.co/1200x800');
+    background: url('../images/sunflowercat.webp') no-repeat center;
     background-size: cover;
     background-position: center;
     height: 100vh;
