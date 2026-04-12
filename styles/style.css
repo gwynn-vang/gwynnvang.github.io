@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+@font-face {
+    font-family: "DejaVu Serif";
+    src: url("fonts/DejaVuSerif.ttf") format("truetype");
+}
 
 :root {
-    --bg-color: #FFFDF1; 
+    --bg-color: #ecc4c3; 
     --text-color: #151C0D; 
     --highlight-color-one: #83944C; 
     --highlight-color-two: #DFA768; 
@@ -11,6 +15,7 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
+    font-family: "DejaVu Serif", serif;
     
 }
 /* Hero Section */
@@ -18,10 +23,11 @@ body {
     background: url('../images/sunflowercat.webp') no-repeat center;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    padding-top: 100px;
+    height: 25vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     color: white;
 }
 
@@ -30,8 +36,9 @@ body {
 }
 
 .hero-section h1 {
-    font-family: "Texturina", serif;
-    font-weight: 700;
+    color: #915466;
+    font-family: "DejaVu Serif", serif;
+    font-weight: 600;
 }
 
 h2, h3, h4, h5 {
@@ -58,7 +65,7 @@ h2, h3, h4, h5 {
 }
 
 .work-card {
-    font-family: "Figtree", sans-serif;
+    font-family: "DejaVu Serif", serif;
     border-radius: 5%;
     border: none;
     background: #83944C;
@@ -72,4 +79,8 @@ h2 {
 
 .modal-body img {
     width: 100%;
+}
+
+.container { 
+    padding: 1px
 }
