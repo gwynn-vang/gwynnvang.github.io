@@ -20,7 +20,7 @@ body {
 }
 /* Hero Section */
 .hero-section {
-    background: url('../images/sunflowercat.webp') no-repeat center;
+    background: url('../images/orangecat.webp') no-repeat center;
     background-size: cover;
     background-position: center;
     padding-top: 100px;
@@ -48,6 +48,24 @@ h2, h3, h4, h5 {
 
 .hero-section .lead {
     font-size: 1.5rem;
+}
+
+.carousel-inner img {
+    width: 100%; 
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.carousel-control-prev img {
+    width: 50%; 
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.carousel-control-next img {
+    width: 50%; 
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .btn {
