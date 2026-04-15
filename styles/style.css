@@ -20,7 +20,7 @@ body {
 }
 /* Hero Section */
 .hero-section {
-    background: url('../images/orangecat.webp') no-repeat center;
+    background: url('../images/fheader.jpg') no-repeat center;
     background-size: cover;
     background-position: center;
     padding-top: 100px;
@@ -101,4 +101,15 @@ h2 {
 
 .container { 
     padding: 1px
+}
+
+.footer { 
+    background-color: #ac7283;
+    list-style-type: none;
+    display: flex; 
+    gap: 20px; 
+}
+
+.footer-link { 
+    color: #fcf9f0;
 }
