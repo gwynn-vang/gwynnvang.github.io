@@ -21,6 +21,7 @@ body {
 /* Hero Section */
 .hero-section {
     background: url('../images/fheader.jpg') no-repeat center;
+    opacity: 50%;
     background-size: cover;
     background-position: center;
     padding-top: 100px;
