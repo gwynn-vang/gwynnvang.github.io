@@ -117,3 +117,38 @@ h2 {
     color: #fcf9f0;
     text-decoration: none;
 }
+
+.card-custom { 
+  background: white; 
+  border-radius: 20px; 
+  padding: 20px; 
+}
+
+.header { 
+  background: url('image') center/cover no-repeat;
+  border-radius: 20px; 
+  padding: 40px; 
+  color: green; 
+}
+
+.green-box { 
+  background-color: green; 
+  color: white; 
+  padding: 40px; 
+  border-radius: 15px; 
+}
+
+.btn-pink { 
+  background-color: pink; 
+  color: black; 
+  border-radius: 10px; 
+}
+
+.circle { 
+  width: 50px; 
+  height: 50px; 
+  background: white; 
+  border-radius: 50%; 
+  display: inline-block; 
+  margin: 5px;
+}
